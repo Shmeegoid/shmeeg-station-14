@@ -20,7 +20,7 @@
 # shmeeg CHANGES BABYYY
 - type: entity
   name: KILLER MOUSE Spawner
-  id: SpawnMobCockroach
+  id: SpawnMobKillerMouse
   parent: MarkerBase
   components:
   - type: Sprite
