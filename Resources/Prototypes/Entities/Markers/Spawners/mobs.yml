@@ -19,15 +19,15 @@
 
 # shmeeg CHANGES BABYYY
 - type: entity
-  name: KILLER mouse Spawner
-  id: SpawnKillerMobMouse
+  name: KILLER MOUSE Spawner
+  id: SpawnMobCockroach
   parent: MarkerBase
   components:
   - type: Sprite
     layers:
       - state: green
-      - sprite: Mobs/Animals/mouse.rsi
-        state: icon-2
+      - sprite: Mobs/Animals/cockroach.rsi
+        state: cockroach_icon
       - state: ai
   - type: ConditionalSpawner
     prototypes:
