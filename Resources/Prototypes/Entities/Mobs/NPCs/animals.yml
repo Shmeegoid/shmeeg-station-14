@@ -1823,7 +1823,7 @@
     description: ghost-role-information-killer-mouse-description
     rules: ghost-role-information-antagonist-rules
     mindRoles:
-    - MindRoleGhostRoleFreeAgent
+    - MindRoleGhostAntagonists
   - type: GhostTakeoverAvailable
   - type: Speech
     speechSounds: Squeak
@@ -1982,6 +1982,12 @@
       Taco: RatTaco
       Burger: RatBurger
       Skewer: RatSkewer
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound #todo custom argocyte AI
 # end shmeeg change
 
 - type: entity
