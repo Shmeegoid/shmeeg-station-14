@@ -27,7 +27,7 @@
     layers:
       - state: green
       - sprite: Mobs/Animals/mouse.rsi
-        state: dead-0.rsi
+        state: dead-0
       - state: ai
   - type: ConditionalSpawner
     prototypes:
