@@ -32,6 +32,11 @@ ghost-role-information-silicon-rules = You are a [color=#6495ed][bold]Silicon[/b
 ghost-role-information-mouse-name = Mouse
 ghost-role-information-mouse-description = A hungry and mischievous mouse.
 
+# shmeeg change below
+ghost-role-information-killer-mouse-name = Killer Mouse
+ghost-role-information-killer-mouse-description = AAAAAAAAAAAAA!!!!!!
+# end shmeeg change
+
 ghost-role-information-mothroach-name = Mothroach
 ghost-role-information-mothroach-description = A cute but mischievous mothroach.
 
