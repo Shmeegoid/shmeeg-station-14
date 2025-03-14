@@ -1851,12 +1851,6 @@
     equippedPrefix: 0
     slots:
     - HEAD
-  - type: NpcFactionMember
-    factions:
-      - Mouse
-  - type: HTN
-    rootTask:
-      task: MouseCompound
   - type: Physics
   - type: FaxableObject
     insertingState: inserting_mouse
