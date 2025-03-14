@@ -17,6 +17,23 @@
       - MobMouse1
       - MobMouse2
 
+# shmeeg CHANGES BABYYY
+- type: entity
+  name: KILLER mouse Spawner
+  id: SpawnKillerMobMouse
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Mobs/Animals/mouse.rsi
+        state: icon-2
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobKillerMouse
+# END SHMEEG CHANGER
+
 - type: entity
   name: Cockroach Spawner
   id: SpawnMobCockroach
