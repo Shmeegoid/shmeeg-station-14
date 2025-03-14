@@ -26,8 +26,8 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Mobs/Animals/cockroach.rsi
-        state: cockroach_icon
+      - sprite: Mobs/Animals/mouse.rsi
+        state: dead-0.rsi
       - state: ai
   - type: ConditionalSpawner
     prototypes:

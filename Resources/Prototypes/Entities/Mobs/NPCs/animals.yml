@@ -1823,7 +1823,7 @@
     description: ghost-role-information-killer-mouse-description
     rules: ghost-role-information-antagonist-rules
     mindRoles:
-    - MindRoleGhostAntagonists
+    - MindRoleGhostRoleSoloAntagonist
   - type: GhostTakeoverAvailable
   - type: Speech
     speechSounds: Squeak
