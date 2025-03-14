@@ -1814,7 +1814,6 @@
   description: OH FUCK! RUN!
   components:
   - type: Body
-  - type: Narcolepsy
     prototype: Mouse
   - type: GhostRole
     makeSentient: true
@@ -1901,7 +1900,7 @@
     flavors:
     - meaty
   - type: Thirst
-    startingThirst: 25  # spawn with Okay thirst state
+    startingThirst: 25
     thresholds:
       OverHydrated: 35
       Okay: 25
@@ -1916,7 +1915,7 @@
       Peckish: 15
       Starving: 10
       Dead: 0
-    baseDecayRate: 0.5 # I'm very hungry! Give me. The cheese.
+    baseDecayRate: 0.5
   - type: Extractable
     grindableSolutionName: food
   - type: SolutionContainerManager
@@ -1962,12 +1961,12 @@
       path: /Audio/Effects/bite.ogg
     angle: 0
     animation: WeaponArcBite
-    damage:
     attackRate: 100
-    autoAttack: True
-    types:
-      Piercing: 20
-      Structural: 100
+    autoAttacks: true
+    damage:
+      types:
+        Piercing: 20
+        Structural: 100
   - type: Bloodstream
     bloodMaxVolume: 50
   - type: CanEscapeInventory
